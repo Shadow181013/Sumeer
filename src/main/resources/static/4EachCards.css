@@ -1,0 +1,40 @@
+
+.card{
+
+    background-color: blanchedalmond;
+    margin:10px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.2s;
+    position: relative;
+    z-index: 1;
+}
+
+a{
+    margin-top: 20px;
+}
+.card-text{
+    text-align: left;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+.btn,
+.btn-link {
+    width: 100%;
+    height: 40px;
+    max-width: 200px; 
+    display: inline-block; /* 使 <a> 具有按鈕樣式 */
+    text-align: center; /* 文字置中 */
+    padding: 8px 16px; /* 一致的內距 */
+    font-size: 16px; /* 字體大小一致 */
+    border-radius: 4px; /* 圓角一致 */
+    transition: background-color 0.3s ease; /* 轉場效果 */
+    margin-top: 5px;
+}
+img{
+    width:100%;
+}
